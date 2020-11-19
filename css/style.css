@@ -22,16 +22,16 @@
   font-size: 30px;
 }
 
-.font-10{
-  font-size: 100px;
-}
-
 .pad-20{
   padding: 20px;
 }
 
 .pad-bot-30{
   padding-bottom: 30px;
+}
+
+.m-top-30{
+  margin-top: 30px;
 }
 
 .img-size-200{
@@ -54,14 +54,23 @@
 
 .bg-lightgrey{
   background-color: #f9f9f9;
-
-}
-
-.m-top-30{
-  margin-top: 30px;
 }
 
 .bordo{
   background-color: #428bca;
   border-radius: 50%;
+}
+
+p{
+  padding: 0 10px;
+}
+
+img + h5{
+  padding: 20px 0;
+}
+
+@media screen and (max-width:768px) {
+  .col-xs-12{
+    padding:20px;
+  }
 }
